@@ -1,0 +1,5 @@
+route,n,route_accuracy,plan_valid_first_try,plan_valid_after_retries,tool_args_exact,evidence_contains_gold,answer_accuracy_first_draft,answer_accuracy,answer_ci_low,answer_ci_high,closed_book_accuracy,closed_book_ci_low,closed_book_ci_high,agent_declined,agent_answered_wrong,grounded_final,latency_p50_s,latency_p95_s,llm_calls_mean
+sql,24,1.0000,0.5833,0.9167,0.8333,0.8333,0.8333,0.8333,0.6415,0.9332,0.0000,0.0000,0.1380,0.0833,0.0833,1.0000,3.9505,6.5351,3.5000
+semantic,14,1.0000,1.0000,1.0000,0.9286,0.9286,0.8571,0.8571,0.6006,0.9599,0.0000,0.0000,0.2153,0.0000,0.1429,1.0000,4.8124,5.1667,3.0000
+both,12,1.0000,0.9167,0.9167,0.9167,0.9167,0.9167,0.9167,0.6461,0.9851,0.0000,0.0000,0.2425,0.0833,0.0000,1.0000,7.0293,9.0280,3.0833
+all,50,1.0000,0.7800,0.9400,0.8800,0.8800,0.8600,0.8600,0.7381,0.9305,0.0000,0.0000,0.0714,0.0600,0.0800,1.0000,4.9497,7.4199,3.2600

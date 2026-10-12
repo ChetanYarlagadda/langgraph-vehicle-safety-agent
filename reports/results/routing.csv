@@ -1,0 +1,69 @@
+set,question,route_gold,route_llm,route_keyword
+evaluation questions (templated),How many complaints has NHTSA received about the 2022 Polestar Polestar 2?,sql,sql,sql
+evaluation questions (templated),How many complaints has NHTSA received about the 2020 Jeep Cherokee?,sql,sql,sql
+evaluation questions (templated),How many complaints has NHTSA received about the 2024 Ford F-150?,sql,sql,sql
+evaluation questions (templated),How many complaints has NHTSA received about the 2019 Chevrolet Silverado 1500?,sql,sql,sql
+evaluation questions (templated),How many complaints has NHTSA received about the 2017 Honda CR-V?,sql,sql,sql
+evaluation questions (templated),How many NHTSA complaints about the 2015 Jeep Cherokee involve its transmission?,sql,sql,sql
+evaluation questions (templated),How many NHTSA complaints about the 2023 Kia EV6 involve its electrical system?,sql,sql,sql
+evaluation questions (templated),How many NHTSA complaints about the 2022 Ford F-150 Hybrid involve its transmission?,sql,sql,sql
+evaluation questions (templated),How many NHTSA complaints about the 2017 Chevrolet Bolt EV involve its steering?,sql,sql,sql
+evaluation questions (templated),Which component do owners of the 2017 Chrysler Pacifica complain about most often?,sql,sql,sql
+evaluation questions (templated),Which component do owners of the 2021 GMC Yukon complain about most often?,sql,sql,sql
+evaluation questions (templated),Which component do owners of the 2015 Hyundai Sonata complain about most often?,sql,sql,sql
+evaluation questions (templated),Which component do owners of the 2023 Jeep Wrangler complain about most often?,sql,sql,sql
+evaluation questions (templated),How many complaints received in 2025 about Tesla vehicles reported a fire?,sql,sql,sql
+evaluation questions (templated),How many complaints received in 2025 about BMW vehicles reported a fire?,sql,sql,sql
+evaluation questions (templated),How many complaints received in 2025 about Toyota vehicles reported a crash?,sql,sql,sql
+evaluation questions (templated),How many complaints received in 2025 about Hyundai vehicles reported a crash?,sql,sql,sql
+evaluation questions (templated),How many recall campaigns cover the 2021 GMC Sierra 1500?,sql,sql,sql
+evaluation questions (templated),How many recall campaigns cover the 2022 Honda CR-V?,sql,sql,sql
+evaluation questions (templated),How many recall campaigns cover the 2013 Hyundai Sonata?,sql,sql,sql
+evaluation questions (templated),How many recall campaigns cover the 2021 Ford Escape?,sql,sql,sql
+evaluation questions (templated),How many vehicles were potentially affected by Nissan recalls reported in 2025?,sql,sql,sql
+evaluation questions (templated),How many vehicles were potentially affected by Honda recalls reported in 2025?,sql,sql,sql
+evaluation questions (templated),How many vehicles were potentially affected by Kia recalls reported in 2025?,sql,sql,sql
+evaluation questions (templated),"Why was the 2021 Cadillac Escalade recalled over its electrical system? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2017 Acura MDX recalled over its engine? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2023 Honda Ridgeline recalled over its body structure? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2012 Toyota Prius recalled over its airbags? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2014 GMC Acadia recalled over its airbags? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2022 Tesla Model X recalled over its body structure? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2013 Ford Escape recalled over its seats? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2017 Jeep Cherokee recalled over its wheels? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2022 Ram 2500 recalled over its brakes? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2014 Volkswagen Passat recalled over its electrical system? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2022 Hyundai Palisade recalled over its seat belts? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2018 Chrysler Pacifica recalled over its cruise control or accelerator? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2025 Mazda CX-70 recalled over its body structure? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"Why was the 2022 Genesis GV70 recalled over its seat belts? Describe the defect, the risk and the remedy.",semantic,semantic,semantic
+evaluation questions (templated),"How many complaints about the fuel system of the 2018 Alfa Romeo Giulia has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the cruise control or accelerator of the 2017 Ram 2500 has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the body structure of the 2023 Fisker Ocean has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the transmission of the 2020 Chevrolet Silverado 3500 has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the brakes of the 2021 Ford F-150 has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the airbags of the 2025 Jeep Grand Cherokee has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the engine of the 2013 Kia Sportage has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the transmission of the 2013 Nissan Pathfinder has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the electrical system of the 2018 Chrysler 300 has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the electrical system of the 2020 Honda Passport has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the electrical system of the 2023 Toyota Highlander has NHTSA received, and is there a recall that covers this problem?",both,both,both
+evaluation questions (templated),"How many complaints about the brakes of the 2024 Volkswagen Atlas has NHTSA received, and is there a recall that covers this problem?",both,both,both
+separately written paraphrases,Give me the total number of complaints filed about Subaru Outbacks from model year 2019.,sql,sql,sql
+separately written paraphrases,Rank the components that 2022 Kia Sportage owners report problems with.,sql,sql,sql
+separately written paraphrases,What's the complaint volume for the 2018 Toyota Camry so far?,sql,sql,semantic
+separately written paraphrases,Did complaints about Hyundai vehicles mention fires often in 2026? Give me the figure.,sql,sql,semantic
+separately written paraphrases,"In 2024, how many Volkswagen recalls told owners not to drive their cars?",sql,sql,sql
+separately written paraphrases,Tally the recall campaigns for the 2017 Nissan Rogue.,sql,sql,semantic
+separately written paraphrases,My 2021 Ford Bronco's airbag light is on. What did Ford recall the airbags for?,semantic,semantic,semantic
+separately written paraphrases,Tell me about the fuel pump recall on the 2019 Toyota 4Runner.,semantic,semantic,semantic
+separately written paraphrases,What can go wrong with the rearview camera on a 2020 Jeep Gladiator according to the recalls?,semantic,semantic,semantic
+separately written paraphrases,What fix is Honda offering for the 2023 Pilot's seat issue?,semantic,semantic,semantic
+separately written paraphrases,Summarize the danger described in the 2022 Rivian R1T steering recall.,semantic,semantic,semantic
+separately written paraphrases,"Is the 2016 Mazda CX-5 under any recall for its headlights, and what is the defect?",semantic,both,semantic
+separately written paraphrases,"Owners of the 2020 Chevy Bolt keep complaining about the battery - how many complaints are there, and has GM recalled it for that?",both,both,sql
+separately written paraphrases,Count the transmission complaints for the 2019 Honda Pilot and tell me whether a recall explains them.,both,both,sql
+separately written paraphrases,"How often do 2021 Ram 1500 owners complain about their brakes, and what recall addresses it?",both,both,semantic
+separately written paraphrases,"For the 2018 Jeep Grand Cherokee, give the number of electrical complaints and describe any related recall.",both,both,both
+separately written paraphrases,What does the data say about 2022 Tesla Model 3 seat belt complaints (how many) and the matching recall's remedy?,both,both,both
+separately written paraphrases,2017 Ford Escape engine fires: number of complaints and the recall that covers them?,both,both,sql

@@ -1,0 +1,21 @@
+qid,attempt,category,resolved_by_retry,error
+complaint_count_04,1,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2019 CHEVROLET SILVERADO; models with that model year: DUPLICATE SILVERADO 5500, SILVERADO 1500, SILVERADO 2500, SILVERADO 3500"
+complaint_count_04,2,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2019 CHEVROLET SILVERADO; models with that model year: DUPLICATE SILVERADO 5500, SILVERADO 1500, SILVERADO 2500, SILVERADO 3500"
+complaint_count_04,3,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2019 CHEVROLET SILVERADO; models with that model year: DUPLICATE SILVERADO 5500, SILVERADO 1500, SILVERADO 2500, SILVERADO 3500"
+top_component_01,1,component filter while ranking components,True,stats_queries[0].component: do not filter on a component when ranking by component; set it to null
+top_component_02,1,component filter while ranking components,True,stats_queries[0].component: do not filter on a component when ranking by component; set it to null
+top_component_03,1,component filter while ranking components,True,stats_queries[0].component: do not filter on a component when ranking by component; set it to null
+top_component_04,1,component filter while ranking components,True,stats_queries[0].component: do not filter on a component when ranking by component; set it to null
+recall_count_01,1,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2021 GMC SIERRA; models with that model year: SIERRA 1500, SIERRA 2500, SIERRA 3500"
+recall_count_01,2,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2021 GMC SIERRA; models with that model year: SIERRA 1500, SIERRA 2500, SIERRA 3500"
+recall_count_01,3,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2021 GMC SIERRA; models with that model year: SIERRA 1500, SIERRA 2500, SIERRA 3500"
+recall_count_02,1,measure not asked for,True,stats_queries[0].measure: the question does not ask for potential_units; use 'count' to count complaints or recall campaigns
+recall_count_03,1,measure not asked for,True,stats_queries[0].measure: the question does not ask for potential_units; use 'count' to count complaints or recall campaigns
+recall_count_04,1,measure not asked for,True,stats_queries[0].measure: the question does not ask for potential_units; use 'count' to count complaints or recall campaigns
+recall_units_01,1,unknown make or model,True,stats_queries[0]: model for make NISSAN 'N/A' is not in the NHTSA data
+complaints_and_recall_04,1,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2020 CHEVROLET SILVERADO; models with that model year: SILVERADO 1500, SILVERADO 2500, SILVERADO 3500, SILVERADO 4500"
+complaints_and_recall_04,1,model name does not exist for that model year,False,"recall_searches[0]: NHTSA has no 2020 CHEVROLET SILVERADO; models with that model year: SILVERADO 1500, SILVERADO 2500, SILVERADO 3500, SILVERADO 4500"
+complaints_and_recall_04,2,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2020 CHEVROLET SILVERADO; models with that model year: SILVERADO 1500, SILVERADO 2500, SILVERADO 3500, SILVERADO 4500"
+complaints_and_recall_04,2,model name does not exist for that model year,False,"recall_searches[0]: NHTSA has no 2020 CHEVROLET SILVERADO; models with that model year: SILVERADO 1500, SILVERADO 2500, SILVERADO 3500, SILVERADO 4500"
+complaints_and_recall_04,3,model name does not exist for that model year,False,"stats_queries[0]: NHTSA has no 2020 CHEVROLET SILVERADO; models with that model year: SILVERADO 1500, SILVERADO 2500, SILVERADO 3500, SILVERADO 4500"
+complaints_and_recall_04,3,model name does not exist for that model year,False,"recall_searches[0]: NHTSA has no 2020 CHEVROLET SILVERADO; models with that model year: SILVERADO 1500, SILVERADO 2500, SILVERADO 3500, SILVERADO 4500"

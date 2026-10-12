@@ -1,0 +1,5 @@
+set,router,n,accuracy
+evaluation questions (templated),llm,50,1.0000
+evaluation questions (templated),keyword,50,1.0000
+separately written paraphrases,llm,18,0.9444
+separately written paraphrases,keyword,18,0.6111

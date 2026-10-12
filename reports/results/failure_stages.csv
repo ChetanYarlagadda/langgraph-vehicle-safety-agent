@@ -1,0 +1,8 @@
+route_gold,stage,n
+both,correct,11
+both,tool call,1
+semantic,answer synthesis,1
+semantic,correct,12
+semantic,tool call,1
+sql,correct,20
+sql,tool call,4

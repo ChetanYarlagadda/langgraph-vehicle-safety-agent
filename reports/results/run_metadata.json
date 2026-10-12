@@ -1,0 +1,92 @@
+{
+  "generated_utc": "2026-10-10T09:30:01+00:00",
+  "quick": false,
+  "data": {
+    "files": {
+      "FLAT_RCL_POST_2010.zip": {
+        "url": "https://static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip",
+        "bytes": 15006062,
+        "sha256": "0b66a333adf5b7d2b69c6b5c71e1807d8b9143a04b6673e42d3241e436a2f55c",
+        "inner_timestamp": "2026-10-10 07:02"
+      },
+      "COMPLAINTS_RECEIVED_2025-2026.zip": {
+        "url": "https://static.nhtsa.gov/odi/ffdd/cmpl/COMPLAINTS_RECEIVED_2025-2026.zip",
+        "bytes": 41351222,
+        "sha256": "cb6215233506a11c0409defd5df33990e3b27ddc3ee4f3b52a8b65ad1f572ee1",
+        "inner_timestamp": "2026-10-09 09:35"
+      }
+    },
+    "coverage": {
+      "complaints_from": "2025-01-01",
+      "complaints_to": "2026-10-07",
+      "complaints": 135048,
+      "recalls_from": "2010-01-01",
+      "recalls_to": "2026-10-06",
+      "recall_campaigns": 13673,
+      "makes": 1033
+    },
+    "tables": {
+      "recalls": 13673,
+      "recall_vehicles": 93365,
+      "recall_components": 16049,
+      "complaints": 135048,
+      "complaint_components": 199480
+    }
+  },
+  "eval": {
+    "n_questions": 50,
+    "by_route": {
+      "sql": 24,
+      "semantic": 14,
+      "both": 12
+    },
+    "split": "test",
+    "dev_seed": 0,
+    "test_seed": 1,
+    "dev_questions": 50,
+    "test_vehicles_disjoint_from_dev": true,
+    "n_routing_probes": 18
+  },
+  "agent": {
+    "llm": "ollama:qwen3:4b",
+    "options": {
+      "temperature": 0.0,
+      "seed": 0,
+      "num_ctx": 8192
+    },
+    "max_plan_attempts": 3,
+    "max_answer_attempts": 3,
+    "embed_model": "BAAI/bge-small-en-v1.5"
+  },
+  "llm_usage": {
+    "calls_this_run": 231,
+    "cache_hits_this_run": 231,
+    "new_calls_this_run": 0,
+    "new_model_seconds_this_run": 0.0,
+    "model_seconds_all_cached_replies": 463.2
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "torch_threads": 2
+  },
+  "versions": {
+    "python": "3.12.10",
+    "langgraph": "1.2.14",
+    "duckdb": "1.5.6",
+    "pydantic": "2.14.0",
+    "faiss": "1.15.1",
+    "sentence_transformers": "6.1.0",
+    "torch": "2.11.0+cu128"
+  },
+  "timings_s": {
+    "database_s": 0.0,
+    "api_crosscheck_s": 0.1,
+    "embed_recalls_s": 0.0,
+    "retrieval_eval_s": 0.8,
+    "agent_eval_s": 1.4,
+    "closed_book_s": 0.0,
+    "routing_probes_s": 0.0,
+    "total_s": 6.2
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ask": [
+    {
+      "question": "How many complaints has NHTSA received about the 2022 Polestar Polestar 2?",
+      "status": 200,
+      "route": "sql",
+      "grounded": true,
+      "citations": [
+        "S1"
+      ],
+      "answer": "245 complaints",
+      "wall_ms_with_cached_llm": 9.0
+    },
+    {
+      "question": "Why was the 2021 Cadillac Escalade recalled over its electrical system? Describe the defect, the risk and the remedy.",
+      "status": 200,
+      "route": "semantic",
+      "grounded": true,
+      "citations": [
+        "21V739000"
+      ],
+      "answer": "The 2021 Cadillac Escalade was recalled for an electrical system defect in campaign [21V739000]. The defect involves the fuel pump power control module potentially causing fuel pump failure or intermittent operation, which can interrupt fuel flow and cause engine stalling. The risk is an increased crash probability due to engine stalling. The remedy is free replacement of the fuel pump power control module by dealers.",
+      "wall_ms_with_cached_llm": 92.4
+    },
+    {
+      "question": "How many complaints about the fuel system of the 2018 Alfa Romeo Giulia has NHTSA received, and is there a recall that covers this problem?",
+      "status": 200,
+      "route": "both",
+      "grounded": true,
+      "citations": [
+        "S1",
+        "25V586000"
+      ],
+      "answer": "NHTSA received 6 complaints about the fuel system of the 2018 Alfa Romeo Giulia. There is a recall covering this problem: Campaign 25V586000 for 2017-2019 Alfa Romeo Giulia and 2018-2019 Alfa Romeo Stelvio vehicles. The fuel pump may fail, causing loss of drive power and increased crash risk. Dealers will replace the fuel delivery module free of charge.",
+      "wall_ms_with_cached_llm": 54.5
+    }
+  ],
+  "tools": {
+    "stats": {
+      "request": {
+        "dataset": "complaints",
+        "make": "toyota",
+        "model": "camry",
+        "model_year": 2018,
+        "group_by": "component",
+        "limit": 3
+      },
+      "status": 200,
+      "rows": [
+        [
+          "POWER TRAIN",
+          75
+        ],
+        [
+          "ENGINE",
+          30
+        ],
+        [
+          "SERVICE BRAKES",
+          18
+        ]
+      ],
+      "median_ms": 10.4
+    },
+    "search": {
+      "request": {
+        "query": "rearview camera image does not display",
+        "make": "FORD",
+        "model": "F-150",
+        "model_year": 2021,
+        "k": 3
+      },
+      "status": 200,
+      "campaigns": [
+        "26V489000",
+        "25V315000",
+        "23V163000"
+      ],
+      "median_ms": 45.2
+    },
+    "invalid_request": {
+      "status": 422,
+      "detail": [
+        "stats_query: make 'FORDD' is not in the NHTSA data; closest valid values: FORD, FOUR WINDS, C & C FORD, TOR"
+      ]
+    }
+  }
+}
