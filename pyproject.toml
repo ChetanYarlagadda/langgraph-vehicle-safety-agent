@@ -1,0 +1,11 @@
+[project]
+name = "langgraph-vehicle-safety-agent"
+version = "1.0.0"
+description = "LangGraph agent for NHTSA vehicle safety data: Pydantic-validated SQL tools, FAISS recall search, grounding checks with retries, evaluated against SQL gold answers."
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore:Using `httpx` with `starlette.testclient`"]
