@@ -1,5 +1,7 @@
 # LangGraph Agent for Vehicle Safety Intelligence
 
+[![CI](https://github.com/ChetanYarlagadda/langgraph-vehicle-safety-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ChetanYarlagadda/langgraph-vehicle-safety-agent/actions/workflows/ci.yml)
+
 **Can a small local LLM answer vehicle-safety questions correctly if SQL and search supply the facts and the LLM
 only plans and writes?** This project builds a LangGraph agent over NHTSA's public complaint and recall data and
 tests it on 50 questions whose gold answers come from SQL.
